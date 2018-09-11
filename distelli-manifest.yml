@@ -15,6 +15,7 @@ billdiamond/bugzilla-demo:
     -   echo "User $USER doesn't exist. Creating..."
     -   sudo useradd $USER
     - fi
+    - sudo apt-get update --fix-missing
     - sudo apt-get clean
     - sudo apt-get update
     - sudo apt-get install

@@ -1,4 +1,4 @@
-billdiamond/bugzilla4pfa:
+billdiamond/bugzilla-demo:
   Build:
     - echo "Nothing to Build"
   PkgInclude:

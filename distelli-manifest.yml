@@ -18,6 +18,7 @@ billdiamond/bugzilla-demo:
     - sudo apt-get -y clean
     - sudo apt-get -y update
     - sudo apt-get -fy install
+    - sudo apt-get -fy lynx-common lynx
     - 'sudo debconf-set-selections <<< "mysql-server mysql-server/root_password password $MYSQL_ROOT"'
     - 'sudo debconf-set-selections <<< "mysql-server mysql-server/root_password_again password $MYSQL_ROOT"'
     - sudo apt-get -y install mysql-server
